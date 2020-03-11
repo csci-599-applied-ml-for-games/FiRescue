@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: a0775e578c4bc6a428008749b2bb32fb
+timeCreated: 1515938746
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bip02
+    100002: Bip02 Footsteps
+    100004: Bip02 Head
+    100006: Bip02 HeadNub
+    100008: Bip02 L Calf
+    100010: Bip02 L Clavicle
+    100012: Bip02 L Finger0
+    100014: Bip02 L Finger0Nub
+    100016: Bip02 L Foot
+    100018: Bip02 L Forearm
+    100020: Bip02 L Hand
+    100022: Bip02 L Thigh
+    100024: Bip02 L Toe0
+    100026: Bip02 L Toe0Nub
+    100028: Bip02 L UpperArm
+    100030: Bip02 Neck
+    100032: Bip02 Pelvis
+    100034: Bip02 Ponytail1
+    100036: Bip02 Ponytail11
+    100038: Bip02 Ponytail12
+    100040: Bip02 Ponytail1Nub
+    100042: Bip02 Ponytail2
+    100044: Bip02 Ponytail21
+    100046: Bip02 Ponytail22
+    100048: Bip02 Ponytail2Nub
+    100050: Bip02 R Calf
+    100052: Bip02 R Clavicle
+    100054: Bip02 R Finger0
+    100056: Bip02 R Finger0Nub
+    100058: Bip02 R Foot
+    100060: Bip02 R Forearm
+    100062: Bip02 R Hand
+    100064: Bip02 R Thigh
+    100066: Bip02 R Toe0
+    100068: Bip02 R Toe0Nub
+    100070: Bip02 R UpperArm
+    100072: Bip02 Spine
+    100074: Bip02 Spine1
+    100076: Bip02 Spine2
+    100078: Bip02 Tail
+    100080: Bip02 Tail1
+    100082: Bip02 Tail2
+    100084: Bip02 TailNub
+    100086: Bone13
+    100088: Bone14
+    100090: //RootNode
+    100092: Dummy01
+    100094: Dummy01 1
+    100096: objdog1
+    100098: objdog2
+    100100: objdog3
+    100102: objpolySurface35
+    400000: Bip02
+    400002: Bip02 Footsteps
+    400004: Bip02 Head
+    400006: Bip02 HeadNub
+    400008: Bip02 L Calf
+    400010: Bip02 L Clavicle
+    400012: Bip02 L Finger0
+    400014: Bip02 L Finger0Nub
+    400016: Bip02 L Foot
+    400018: Bip02 L Forearm
+    400020: Bip02 L Hand
+    400022: Bip02 L Thigh
+    400024: Bip02 L Toe0
+    400026: Bip02 L Toe0Nub
+    400028: Bip02 L UpperArm
+    400030: Bip02 Neck
+    400032: Bip02 Pelvis
+    400034: Bip02 Ponytail1
+    400036: Bip02 Ponytail11
+    400038: Bip02 Ponytail12
+    400040: Bip02 Ponytail1Nub
+    400042: Bip02 Ponytail2
+    400044: Bip02 Ponytail21
+    400046: Bip02 Ponytail22
+    400048: Bip02 Ponytail2Nub
+    400050: Bip02 R Calf
+    400052: Bip02 R Clavicle
+    400054: Bip02 R Finger0
+    400056: Bip02 R Finger0Nub
+    400058: Bip02 R Foot
+    400060: Bip02 R Forearm
+    400062: Bip02 R Hand
+    400064: Bip02 R Thigh
+    400066: Bip02 R Toe0
+    400068: Bip02 R Toe0Nub
+    400070: Bip02 R UpperArm
+    400072: Bip02 Spine
+    400074: Bip02 Spine1
+    400076: Bip02 Spine2
+    400078: Bip02 Tail
+    400080: Bip02 Tail1
+    400082: Bip02 Tail2
+    400084: Bip02 TailNub
+    400086: Bone13
+    400088: Bone14
+    400090: //RootNode
+    400092: Dummy01
+    400094: Dummy01 1
+    400096: objdog1
+    400098: objdog2
+    400100: objdog3
+    400102: objpolySurface35
+    4300000: objdog1
+    4300002: objdog3
+    4300004: objdog2
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: objdog1
+    13700002: objdog2
+    13700004: objdog3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
