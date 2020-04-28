@@ -13,6 +13,8 @@ public class DogAgent : Agent
     public ProgressBarCircle PbC;
     public GameObject HappyKoala;
     public GameObject SadKoala;
+    public GameObject Squirrel;
+    public GameObject Rabbit;
 
     private ForestArea forestArea;
     private Animation animator;
@@ -125,6 +127,8 @@ public class DogAgent : Agent
         HappyKoala.SetActive(false);
         lastWallCollision = 0.0f;
         lastSaved = System.DateTime.Now.Second;
+        Rabbit.SetActive(false);
+        Squirrel.SetActive(false);
     }
 
     private void FixedUpdate()
@@ -142,6 +146,11 @@ public class DogAgent : Agent
         if (dogHealth.value <= 0.3f)
         {
             fillBar.color = Color.red;
+        }
+        if (PbC.BarValue < 50)
+        {
+            SadKoala.SetActive(true);
+            HappyKoala.SetActive(false);
         }
         if (PbC.BarValue >= 50)
         {
@@ -185,13 +194,19 @@ public class DogAgent : Agent
         
         if (collision.transform.CompareTag("saveRabbit"))
         {
-            saved_id = 0;
+            if (!isFull)
+            {
+                saved_id = 0;
+            }
             PickAnimal(collision.gameObject);
             AddVectorObs(Vector3.Distance(collision.transform.position, transform.position));
         }
         else if (collision.transform.CompareTag("saveSquirrel"))
         {
-            saved_id = 1;
+            if (!isFull)
+            {
+                saved_id = 1;
+            }
             PickAnimal(collision.gameObject);
             AddVectorObs(Vector3.Distance(collision.transform.position, transform.position));
         }
@@ -206,7 +221,14 @@ public class DogAgent : Agent
     {
         if (isFull) return; // Can't save another animal while full
         isFull = true;
-
+        if (saved_id == 0)
+        {
+            Rabbit.SetActive(true);
+        }
+        else if (saved_id == 1)
+        {
+            Squirrel.SetActive(true);
+        }
         forestArea.RemoveSpecificAnimal(animalObject);
         dogSound.Play();
         AddReward(3.5f);
@@ -220,6 +242,8 @@ public class DogAgent : Agent
             return; // Nothing to save
         }
         jumped = true;
+        Rabbit.SetActive(false);
+        Squirrel.SetActive(false);
         isFull = false;
         // Spawn heart
         GameObject heart = Instantiate<GameObject>(heartPrefab);

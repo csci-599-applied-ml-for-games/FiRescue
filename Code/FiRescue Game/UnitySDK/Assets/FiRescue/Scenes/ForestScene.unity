@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 042b1d4fd0d4a3b468cb176ec044d247, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 20d4f77b9022eab48b4d94599ed4bf82, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.29697776, g: 0.24607444, b: 0.23221657, a: 1}
+  m_IndirectSpecularColor: {r: 0.85170674, g: 0.89981544, b: 0.9542894, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -742,6 +742,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144526982914998803, guid: 03058a5354b001041982979f8de1bd47,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174716274323388249, guid: 03058a5354b001041982979f8de1bd47,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7986749639009331675, guid: 03058a5354b001041982979f8de1bd47,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03058a5354b001041982979f8de1bd47, type: 3}
@@ -1852,6 +1867,12 @@ Transform:
   m_Father: {fileID: 1903087490}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &342195116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3189805610647606396, guid: 03058a5354b001041982979f8de1bd47,
+    type: 3}
+  m_PrefabInstance: {fileID: 1696686739}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &361114572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2335,6 +2356,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 442203455}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &447577499 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8117471788890074470, guid: 03058a5354b001041982979f8de1bd47,
+    type: 3}
+  m_PrefabInstance: {fileID: 1696686739}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &458271963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6039,7 +6066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   broadcastHub:
     broadcastingBrains:
-    - {fileID: 11400000, guid: 7858b3fe64ff08e4481c4ef06d9c2c39, type: 2}
+    - {fileID: 11400000, guid: e7bd6e944b947dc49abd22177590d8cd, type: 2}
     _brainsToControl: []
   maxSteps: 0
   trainingConfiguration:
@@ -7757,12 +7784,17 @@ PrefabInstance:
     - target: {fileID: 5859765857443027836, guid: 03058a5354b001041982979f8de1bd47,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.022999996
+      value: 0.033
       objectReference: {fileID: 0}
     - target: {fileID: 5859765857443027836, guid: 03058a5354b001041982979f8de1bd47,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.022999996
+      value: 0.033
+      objectReference: {fileID: 0}
+    - target: {fileID: 5859765857443027836, guid: 03058a5354b001041982979f8de1bd47,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.043
       objectReference: {fileID: 0}
     - target: {fileID: 5859765857443027831, guid: 03058a5354b001041982979f8de1bd47,
         type: 3}
@@ -7773,7 +7805,7 @@ PrefabInstance:
         type: 3}
       propertyPath: brain
       value: 
-      objectReference: {fileID: 11400000, guid: 7858b3fe64ff08e4481c4ef06d9c2c39,
+      objectReference: {fileID: 11400000, guid: e7bd6e944b947dc49abd22177590d8cd,
         type: 2}
     - target: {fileID: 5859765857443027831, guid: 03058a5354b001041982979f8de1bd47,
         type: 3}
@@ -7800,6 +7832,16 @@ PrefabInstance:
       propertyPath: SadKoala
       value: 
       objectReference: {fileID: 1821053766}
+    - target: {fileID: 5859765857443027831, guid: 03058a5354b001041982979f8de1bd47,
+        type: 3}
+      propertyPath: Squirrel
+      value: 
+      objectReference: {fileID: 447577499}
+    - target: {fileID: 5859765857443027831, guid: 03058a5354b001041982979f8de1bd47,
+        type: 3}
+      propertyPath: Rabbit
+      value: 
+      objectReference: {fileID: 342195116}
     - target: {fileID: 5859765857570962233, guid: 03058a5354b001041982979f8de1bd47,
         type: 3}
       propertyPath: m_RootOrder
@@ -7999,6 +8041,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144526982914998803, guid: 03058a5354b001041982979f8de1bd47,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174716274323388249, guid: 03058a5354b001041982979f8de1bd47,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7986749639009331675, guid: 03058a5354b001041982979f8de1bd47,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4376350346679348608, guid: 03058a5354b001041982979f8de1bd47,
         type: 3}

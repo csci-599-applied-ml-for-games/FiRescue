@@ -154,6 +154,21 @@ public class ForestArea : Area
             StartCoroutine(PlayScaredGirl());
             lastScared = System.DateTime.Now.Second;
         }
-
+        
+        if (saveList != null)
+        {
+            for (int i = 0; i < saveList.Count; i++)
+            {
+                if (saveList[i].GetComponentInChildren<Slider>().value == 0)
+                {
+                    Destroy(saveList[i]);
+                    if (dogAgent.PbC.BarValue != 0)
+                    {
+                        dogAgent.PbC.BarValue -= 10;
+                    }
+                }
+            }
+        }
+        
     }
 }

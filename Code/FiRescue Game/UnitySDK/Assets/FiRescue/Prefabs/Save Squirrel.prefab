@@ -3807,7 +3807,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6592,7 +6592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.014017452, g: 0.4245283, b: 0.10130742, a: 1}
+  m_Color: {r: 0.03773582, g: 0.036133826, b: 0.036133826, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -16081,6 +16081,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd9c49f30b6a62a4f89a283f8c054411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  animalHealth: {fileID: 774475092786223778}
 --- !u!1 &8776654228529480757
 GameObject:
   m_ObjectHideFlags: 0
